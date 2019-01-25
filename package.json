@@ -1,0 +1,21 @@
+{
+    "name": "ayu-custom",
+    "displayName": "ayu-custom",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ayu-custom",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ayu-custom-color-theme.json"
+            }
+        ]
+    }
+}
